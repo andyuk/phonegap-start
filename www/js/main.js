@@ -1,8 +1,11 @@
 /*global bookstrap: true */
 require([
   'jquery',
+  'MyApp',
   'lib/events',
-  'lib/text!../nav.html'
+  'lib/text!../nav.html',
+  'lib/ftscroller',
+  'lib/underscore'
   ], function($, events, nav) {
 
     function deviceready() {
