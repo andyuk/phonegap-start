@@ -1,7 +1,9 @@
 /*global bookstrap: true */
 require([
-  'jquery'
-  ], function($) {
+  'jquery',
+  'lib/events',
+  'lib/text!../nav.html'
+  ], function($, events, nav) {
 
     function deviceready() {
       console.log('Device ready');
